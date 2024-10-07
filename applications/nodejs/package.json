@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "type": "module",
+  "dependencies": {
+    "cjs-package": "workspace:^",
+    "cjs-package-files": "workspace:^",
+    "cjs-package-without-sideeffects": "workspace:^",
+    "cjs-package-without-sideeffects-files": "workspace:^",
+    "classnames": "^2.5.1",
+    "dual-packages": "workspace:^",
+    "dual-packages-without-sideeffects": "workspace:^",
+    "dual-webpack": "workspace:^",
+    "dual-webpack-without-sideeffects": "workspace:^",
+    "dual-webpack-mjs": "workspace:^",
+    "dual-webpack-mjs-without-sideeffects": "workspace:^",
+    "esm-side-effects-works": "workspace:^"
+  },
+  "scripts": {
+    "cjs": "node cjs.cjs",
+    "esm": "node esm.js"
+  },
+  "engines": {
+    "node": ">= 18"
+  }
+}

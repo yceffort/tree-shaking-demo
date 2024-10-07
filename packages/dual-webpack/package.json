@@ -1,0 +1,14 @@
+{
+  "name": "dual-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "sideEffects": false,
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "webpack",
+  "dependencies": {
+    "cjs-package": "workspace:^",
+    "cjs-package-files": "workspace:^",
+    "cjs-package-without-sideeffects": "workspace:^",
+    "cjs-package-without-sideeffects-files": "workspace:^",
+    "classnames": "^2.5.1",
+    "dual-packages": "workspace:^",
+    "dual-packages-without-sideeffects": "workspace:^",
+    "dual-webpack": "workspace:^",
+    "dual-webpack-without-sideeffects": "workspace:^",
+    "dual-webpack-mjs": "workspace:^",
+    "dual-webpack-mjs-without-sideeffects": "workspace:^",
+    "esm-side-effects-works": "workspace:^"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  }
+}

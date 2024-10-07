@@ -1,0 +1,23 @@
+{
+  "name": "dual-packages",
+  "version": "1.0.0",
+  "description": "",
+  "sideEffects": false,
+  "main": "cjs/index.js",
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./esm/index.mjs"
+      },
+      "require": {
+        "default": "./cjs/index.js"
+      }
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

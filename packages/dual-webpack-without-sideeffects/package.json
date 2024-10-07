@@ -1,0 +1,13 @@
+{
+  "name": "dual-webpack-without-sideeffects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

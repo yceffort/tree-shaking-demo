@@ -1,0 +1,27 @@
+{
+  "name": "webpack4",
+  "dependencies": {
+    "cjs-package": "workspace:^",
+    "cjs-package-files": "workspace:^",
+    "cjs-package-without-sideeffects": "workspace:^",
+    "cjs-package-without-sideeffects-files": "workspace:^",
+    "classnames": "^2.5.1",
+    "dual-packages": "workspace:^",
+    "dual-packages-without-sideeffects": "workspace:^",
+    "dual-webpack": "workspace:^",
+    "dual-webpack-without-sideeffects": "workspace:^",
+    "dual-webpack-mjs": "workspace:^",
+    "dual-webpack-mjs-without-sideeffects": "workspace:^",
+    "esm-side-effects-works": "workspace:^"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.2",
+    "webpack": "4.44.2",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  }
+}
