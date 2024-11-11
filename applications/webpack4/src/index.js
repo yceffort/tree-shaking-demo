@@ -1,22 +1,18 @@
 // 트리 쉐이킹 안됨
 import { hello as hello1 } from "dual-packages";
-// 트리 쉐이킹 안됨
 import { hello as hello2 } from "dual-packages-without-sideeffects";
 
 // 트리쉐이킹 잘됨
 import { hello as hello3 } from "dual-webpack";
-// 트리쉐이킹 잘됨
 import { hello as hello4 } from "dual-webpack-without-sideeffects";
 
 // 트리 쉐이킹 안됨
 import { hello as hello5 } from "cjs-package";
-// 트리 쉐이킹 안됨
 import { hello as hello6 } from "cjs-package-without-sideeffects";
-// 트리 쉐이킹 안됨
 import { hello as hello7 } from "cjs-package-without-sideeffects-files";
-// 트리 쉐이킹 안됨
 import { hello as hello8 } from "cjs-package-files";
 
+// 트리쉐이킹 잘됨
 import { hello as hello9 } from "dual-webpack-mjs";
 import { hello as hello10 } from "dual-webpack-mjs-without-sideeffects";
 
